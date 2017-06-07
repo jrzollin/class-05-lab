@@ -157,12 +157,15 @@ Test this function by hand in the console to get it working, and when you think 
 
 
 // Write your code here
-
-
+function multiplyArray(value1){
+  var result = [value1[0] * value1[1] * value1[2], 'The numbers ' +value1[0] + ',' + value1[1] + ',' + value1[2] + ' have a product of ' + (value1[0] * value1[1] * value1[2]) + '.'];
+  console.log(result);
+  return result;
+}
 
 // Here is the test for multiplyArray(); uncomment it to run it
 
-//testMultiplyArray(testArray);
+testMultiplyArray(testArray);
 
 
 
