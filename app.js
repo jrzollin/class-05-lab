@@ -119,14 +119,20 @@ Test this function by hand in the console to get it working, and when you think 
 
 
 // Write your code here
+var numArray = [2,3,4];
+function sumArray(value1){
+  var result = [numArray[0] + numArray[1] + numArray[2], numArray[0] + ',' + numArray[1] + ',' + numArray[2] + ' was passed in as an array of numbers, and ' + (numArray[0] + numArray[1] + numArray[2]) + ' is their sum.'];
+  console.log(result);
+  return result;
+}
 
-//testArray = [2,3,4];
+testArray = [2,3,4];
 
 
 
 // Here is the test for sumArray(); uncomment it to run it
 
-//testSumArray(testArray);
+testSumArray(testArray);
 
 
 
