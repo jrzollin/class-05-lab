@@ -49,12 +49,16 @@ Test this function by hand in the console to get it working, and when you think 
 
 
 // Write your code here
-
+function multiply(num1, num2){
+  var result = [num1 * num2, 'The product of ' + num1 + ' and ' + num2 + ' is ' + (num1 * num2) + '.'];
+  console.log(result);
+  return result;
+}
 
 
 // Here is the test for multiply(); uncomment it to run it
 
-//testMultiply(4,7);
+testMultiply(4,7);
 
 
 
