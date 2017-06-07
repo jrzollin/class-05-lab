@@ -17,6 +17,7 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sum(num1, num2){
   var result = [num1 + num2, 'The sum of ' + num1 + ' and ' + num2 + ' is ' + (num1 + num2) + '.'];
+  console.log(result);
   return result;
 }
 
